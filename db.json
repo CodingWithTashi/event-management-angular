@@ -1,0 +1,99 @@
+{
+  "events": [
+    {
+      "id": "1",
+      "title": "Angular Conference 2026",
+      "description": "Annual Angular developers conference with talks on signals, performance, and the latest framework features.",
+      "category": "Technology",
+      "date": "2026-07-20",
+      "time": "09:00 AM",
+      "location": "Toronto, ON",
+      "venue": "Metro Convention Centre",
+      "image": "https://placehold.co/400x200?text=Technology",
+      "organizerName": "Tech Events Inc",
+      "ticketTypes": [
+        { "id": "1", "name": "General", "price": 99, "available": 100 },
+        { "id": "2", "name": "VIP", "price": 299, "available": 20 }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Summer Music Fest",
+      "description": "An open-air festival featuring local and touring bands across multiple stages.",
+      "category": "Music",
+      "date": "2026-07-30",
+      "time": "02:00 PM",
+      "location": "Mississauga, ON",
+      "venue": "Celebration Square",
+      "image": "https://placehold.co/400x200?text=Music",
+      "organizerName": "Live Nation Local",
+      "ticketTypes": [
+        { "id": "1", "name": "General", "price": 45, "available": 300 },
+        { "id": "2", "name": "VIP", "price": 85, "available": 40 }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Modern Art Expo",
+      "description": "A free public exhibition of contemporary art from emerging Canadian artists.",
+      "category": "Arts",
+      "date": "2026-07-22",
+      "time": "10:00 AM",
+      "location": "Toronto, ON",
+      "venue": "Harbourfront Centre",
+      "image": "https://placehold.co/400x200?text=Arts",
+      "organizerName": "Harbourfront Arts Council",
+      "ticketTypes": [
+        { "id": "1", "name": "General", "price": 0, "available": 200 }
+      ]
+    }
+  ],
+  "bookings": [
+    {
+      "id": "1",
+      "userId": "user1",
+      "eventId": "1",
+      "eventTitle": "Angular Conference 2026",
+      "eventDate": "2026-07-20",
+      "tickets": [{ "type": "General", "quantity": 2, "price": 99 }],
+      "attendees": [
+        { "name": "John Doe", "email": "john@example.com", "phone": "1234567890" },
+        { "name": "Jane Doe", "email": "jane@example.com", "phone": "1234567891" }
+      ],
+      "totalAmount": 198,
+      "status": "confirmed",
+      "bookingDate": "2026-07-01",
+      "referenceNumber": "BK123456"
+    },
+    {
+      "id": "2",
+      "userId": "user1",
+      "eventId": "3",
+      "eventTitle": "Modern Art Expo",
+      "eventDate": "2026-07-22",
+      "tickets": [{ "type": "General", "quantity": 1, "price": 0 }],
+      "attendees": [
+        { "name": "John Doe", "email": "john@example.com", "phone": "1234567890" }
+      ],
+      "totalAmount": 0,
+      "status": "confirmed",
+      "bookingDate": "2026-07-10",
+      "referenceNumber": "BK654321"
+    },
+    {
+      "id": "3",
+      "userId": "user1",
+      "eventId": "2",
+      "eventTitle": "Summer Music Fest",
+      "eventDate": "2026-07-30",
+      "tickets": [{ "type": "General", "quantity": 1, "price": 45 }],
+      "attendees": [
+        { "name": "John Doe", "email": "john@example.com", "phone": "1234567890" }
+      ],
+      "totalAmount": 45,
+      "status": "cancelled",
+      "bookingDate": "2026-07-12",
+      "referenceNumber": "BK111222"
+    }
+  ]
+}
